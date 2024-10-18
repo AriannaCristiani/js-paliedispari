@@ -30,5 +30,15 @@ const reversedText = wordReverse(userWord)
 console.log(reversedText) 
 
 
+// if (userWord === reversedText){
+//     console.log(true)
+// } else {
+//     console.log(false)
+// }
+
+var boolean = userWord === reversedText
+console.log(boolean)
+   
+
 
 
